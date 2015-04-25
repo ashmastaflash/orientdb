@@ -15,6 +15,6 @@ RUN cd /usr/local/src \
     && mkdir /usr/local/log
 
 # configure system
-# EXPOSE 2424
-# EXPOSE 2480
+EXPOSE 2424
+EXPOSE 2480
 CMD ["/usr/local/bin/server.sh"]
